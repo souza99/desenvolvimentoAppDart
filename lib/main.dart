@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:loja_virtual/view/cadastra_usuario.dart';
 import 'package:loja_virtual/view/cadastro_pokemon.dart';
+import 'package:loja_virtual/view/calculadora.dart';
 import 'package:loja_virtual/view/calcular_idade.dart';
 import 'package:loja_virtual/view/hello_word.dart';
 import 'package:loja_virtual/view/menu.dart';
@@ -35,7 +36,8 @@ class MyApp extends StatelessWidget {
         "/calcularIdade" : (context) => CalcularIdade(),
         "/cadastraUsuario": (context) => CadastraUsuario(),
         "/cadastraPokemon": (context) => CadastroPokemon(),
-        "/hellow": (context) => HelloWord()
+        "/hellow": (context) => HelloWord(),
+        "/calculadora" : (context) => Calculadora()
       },
     );
   }

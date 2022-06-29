@@ -18,7 +18,7 @@ class Menu extends StatelessWidget {
           criarBotao('Calcular Idade', () => Navigator.pushNamed(context, '/calcularIdade')),
           criarBotao('Cadastre seu Pokemon', () => Navigator.pushNamed(context, '/cadastraPokemon')),
           criarBotao('Cadastro de usuário', () => Navigator.pushNamed(context, '/cadastraUsuario')),
-          criarBotao('Calculadora', () => print('Quinto'))
+          criarBotao('Calculadora', () => Navigator.pushNamed(context, '/calculadora'))
         ],
       ),
     ));
